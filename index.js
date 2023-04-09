@@ -1,5 +1,5 @@
 const express = require("express");
-
+const wildcard =require('socketio-wildcard')();
 const app = express();
 const cors = require("cors");
 const http = require("http");
